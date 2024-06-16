@@ -34,7 +34,8 @@ function check_system() {
 	case "$VERSION_CODENAME" in
 	"bionic"|\
 	"focal"|\
-	"jammy")
+	"jammy"|\
+	"noble")  # Codename for Ubuntu 24.04 LTS
 		UBUNTU_CODENAME="$VERSION_CODENAME"
 		;;
 	"buster")
